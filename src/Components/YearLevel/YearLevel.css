@@ -1,0 +1,273 @@
+.yearlevel-mainbox {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    /* background-color: #EAF9FF; */
+    background-image: url(../zimages/galoschoolimg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.yearlevel-sidebar {
+    width: 220px;
+    background-color: #0342B2;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: fixed;
+    height: 100vh;
+}
+
+.yearlevel-logo {
+    display: flex;
+    align-items: center;
+    padding: 10%;
+}
+.yearlevel-seamslogo{
+    width: 30px;
+    height: 30px;
+    background-image: url(../zimages/seamslogo2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.yearlevel-seams-txt{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.yearlevel-adminbox{
+    width: 100%;
+    padding: 2% 0;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: #00C2FF   ;
+}
+.yearlevel-adminimage{
+    background-image: url(../zimages/useradmin.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    margin-left: 16%;
+}
+.yearlevel-adminNameH2{
+    font-weight: normal;
+    font-size: 12px;
+    text-align: left;
+    margin-left: 3%;
+}
+
+.yearlevel-menu {
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.yearlevel-menu button {
+    background-color: #0342B2;
+    border-color: rgba(255, 255, 255, 0);
+    border-width: 1px;
+    color: #fff;
+    padding: 10px 16%;
+    text-align: left;
+    width: 100%;
+    font-size: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: left;
+}
+
+.yearlevel-menu button:hover {
+    background-color: #1461e6;
+    font-weight: bold;
+    border-radius: 5px;
+    border-color: rgba(255, 255, 255, 0.5);
+    border-width: 1px;
+}
+
+.yearlevel-exitimg{
+    width: 14px;
+    height: 14px;
+    background-image: url(../zimages/exitimg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.yearlevel-exit {
+    border-top: 1px solid #CCC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: auto;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.yearlevel-exit button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    font-size: 12px;
+    cursor: pointer;
+
+}
+
+.yearlevel-exit:hover {
+    background-color: #00C2FF;
+}
+/* ----------------------------left contnt----------------------- */
+.yearlevel-leftcont-box{
+    margin-left: 220px;
+    padding: 30px 4%;
+    /* background-color: #EAF9FF; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(../zimages/galoschoolimg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.yearlevel-logoboxlcc{
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+} 
+.yearlevel-lccBlogo{
+    width: 50px;
+    height: 50px;
+    background-image: url(../zimages/lccblogoorg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: auto;
+}
+.yearlevel-backevent-btnbox{
+    margin-top: 2%;
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+.yearlevel-order1{
+    background-color: transparent ;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 2%;
+}
+.yearlevel-arrowimg{
+    width: 20px;
+    height: 20px;
+    background-color: #0342B2;
+    border-radius: 50px;
+    background-image: url(../zimages/homepagebtn.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%; 
+}
+.yearlevel-backevent-btn{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 1%;
+    text-align: start;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+.yearlevel-backbtnh4{
+    font-size: 10px;
+    font-weight: normal;
+    color: #B3B3B3;
+    margin-top: 3px;
+    margin-left: 2%;
+}
+.yearlevel-backevent-btnbox:hover {
+    background-color: #0342B2;
+    color: #fff;
+}
+.yearlevel-backevent-btn:hover{
+    color: #fff;
+}
+/* ----------------- */
+.yearlevel-eventDetails-box{
+    padding: 1% 0%;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+
+
+/* -------------- */
+.yearlevel-addeventForm{
+    width: 100%;
+    /* height: 100vh; */
+    background-color: transparent;
+    border-radius: 5px;
+    margin-top: 3%;
+    padding:10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.yearlevel-addeventformH2{
+    font-weight: 500;
+    font-size: 16px;
+}
+.yearlevel-allcoursesmH2{
+    font-weight: 500;
+    font-size: 20px;
+    color: #fff;
+}
+
+
+.yearlevel-addeventformH4{
+    font-weight: normal;
+    font-size: 12px;
+    color: black;
+    opacity: 90%;
+    margin-top: 3px;
+}
+/* ---------course box-------- */
+.yearlevel-course-box{
+    width: 100%;
+    /* height: 100vh; */
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 1.2%;
+    padding: 20px 2%;
+    display: flex;
+    border: none;
+    flex-direction: column;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.yearlevel-course-box:hover{
+    cursor: pointer;
+    background-color: #00C2FF;
+    color: white;
+    font-weight: bold;
+    transform: scale(1.05); /* Slight zoom */
+}

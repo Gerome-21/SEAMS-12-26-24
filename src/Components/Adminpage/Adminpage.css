@@ -1,0 +1,356 @@
+.Adminpage-mainbox {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: transparent;
+    background-image: url(../zimages/galoschoolimg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.Adminpage-sidebar {
+    width: 220px;
+    background-color: #0342B2;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: fixed;
+    height: 100vh;
+}
+
+.Adminpage-logo {
+    display: flex;
+    align-items: center;
+    padding: 10%;
+}
+.Adminpage-seamslogo{
+    width: 30px;
+    height: 30px;
+    background-image: url(../zimages/seamslogo2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Adminpage-seams-txt{
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.Adminpage-adminbox{
+    width: 100%;
+    padding: 2% 0;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: #00C2FF   ;
+}
+.Adminpage-adminimage{
+    background-image: url(../zimages/useradmin.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    margin-left: 16%;
+}
+.Adminpage-adminNameH2{
+    font-weight: normal;
+    font-size: 12px;
+    text-align: left;
+    margin-left: 3%;
+}
+
+.Adminpage-menu {
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.Adminpage-menu button {
+     /* border: 1px solid #CCC; */
+    /* box-shadow: white;  */
+    background-color: #0342B2;
+    border-color: rgba(255, 255, 255, 0);
+    border-width: 1px;
+    color: #fff;
+    padding: 10px 16%;
+    text-align: left;
+    width: 100%;
+    font-size: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: left;
+}
+
+.Adminpage-menu button:hover {
+    background-color: #1461e6;
+    font-weight: bold;
+    border-radius: 5px;
+    border-color: rgba(255, 255, 255, 0.5);
+    border-width: 1px;
+}
+
+.Adminpage-exitimg{
+    width: 14px;
+    height: 14px;
+    background-image: url(../zimages/exitimg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Adminpage-exit {
+    border-top: 1px solid #CCC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: auto;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.Adminpage-exit button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    font-size: 12px;
+    cursor: pointer;
+
+}
+
+.Adminpage-exit:hover {
+    background-color: #00C2FF;
+}
+/* ----------------------------left contnt----------------------- */
+.Adminpage-leftcont-box{
+    margin-left: 220px;
+    padding: 10px 4%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(../zimages/galoschoolimg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.Adminpage-logoboxlcc{
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    
+} 
+.Adminpage-lccBlogo{
+    width: 50px;
+    height: 50px;
+    background-image: url(../zimages/lccblogoorg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: auto;
+}
+.Adminpage-backevent-btnbox{
+    margin-top: 2%;
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+.Adminpage-order1{
+    background-color: transparent ;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 2%;
+}
+.Adminpage-arrowimg{
+    width: 20px;
+    height: 20px;
+    background-color: #0342B2;
+    border-radius: 50px;
+    background-image: url(../zimages/arrowbtn.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%; 
+}
+.Adminpage-backevent-btn{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: start;
+    border: none;
+    background-color: transparent;
+    padding-left: 8px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+.Adminpage-backbtnh4{
+    font-size: 10px;
+    font-weight: normal;
+    color: #B3B3B3;
+    margin-top: 3px;
+    margin-left: 2%;
+}
+.Adminpage-backevent-btnbox:hover {
+    background-color: #0342B2;
+    color: #fff;
+}
+.Adminpage-backevent-btn:hover{
+    color: #fff;
+}
+/* ----------------- */
+.Adminpage-eventDetails-box{
+    padding: 1% 0%;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    margin-top: 3px;
+    padding-bottom: 1%;
+    border-bottom: 1px solid gray;
+}
+
+
+
+/* -------------- */
+.Adminpage-content{
+    width: 80%;
+    /* height: 100vh; */
+    background-color: yellow;
+    opacity: 0.9;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 20px 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Adminpage-adminnameH2{
+    font-weight: 500;
+    font-size: 50px;
+    color: black;
+    font-weight: bold;
+}
+.Adminpage-adminnameH4{
+  font-weight: normal;
+    font-size: 100px;
+    color: white;
+
+    margin-top: 4%;
+}
+
+.Adminpage-admindateH4{
+  font-weight: normal;
+    font-size: 20px;
+    color: white;
+
+}
+
+/* EventTable.css */
+.Adminpage-attendee-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 3% 0;
+    font-size: 12px;
+    text-align: left;
+    table-layout: fixed;
+    font-weight: normal;
+    background-color: transparent; 
+    color: black;
+  }
+  
+  .Adminpage-attendee-table th, .Adminpage-attendee-table td {
+    padding: 10px 12px;
+    /* border: 1px solid #444; */
+    word-wrap: break-word;
+    overflow-wrap: break-word; /* Ensures compatibility */
+    white-space: normal; /* Allows text to wrap */
+  }
+  
+  .Adminpage-attendee-table thead tr {
+    background-color: #fff;
+    border-bottom: 1px solid gray;
+  }
+  
+  .Adminpage-attendee-table tbody tr{
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  .Adminpage-attendee-table tbody tr:hover {
+    background-color: #1461e6;
+    color: white;
+    transform: scale(1.05); /* Slight zoom */
+  }
+  
+  .Adminpage-attendee-table th {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  
+  @media (max-width: 720px) {
+    .Adminpage-attendee-table {
+      font-size: 14px;
+    }
+  
+    .Adminpage-attendee-table th, .Adminpage-attendee-table td {
+      padding: 10px;
+    }
+  }
+/* -------status---
+.Adminpage-status-approved {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .Adminpage-status-notapproved {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .Adminpage-status-default {
+    color: black;
+  } */
+
+  .Adminpage-updatebtn, .Adminpage-deletebtn{
+    border: 1px solid grey;
+    cursor: pointer;
+    margin: 3%;
+    font-size: 10px;
+    padding: 6% 4%;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  .Adminpage-updatebtn{
+    background-color: white;
+    color: black;
+  }
+  .Adminpage-deletebtn{
+    background-color: black;
+    color: white;
+  }
+  .Adminpage-deletebtn:hover{
+    background-color: red;
+    color: white;
+  }
+  .Adminpage-updatebtn:hover{
+    background-color: yellow;
+    color: black;
+  }
+
+

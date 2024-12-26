@@ -1,0 +1,173 @@
+/* Modal Overlay */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+/* Modal Content */
+.modal-content {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin: 0 1rem;
+}
+
+/* Modal Header */
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.modal-header h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #333;
+}
+
+/* Close Button */
+.close-button {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #666;
+}
+
+/* Form Group */
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #444;
+}
+
+.form-group input,
+.form-group select,
+.form-group .react-select__control {
+    width: 100%;
+    padding: 0.85rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group .react-select__control:focus {
+    outline: none;
+    border-color: #0066cc;
+    box-shadow: 0 0 0 2px rgba(0, 102, 204, 0.2);
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem; /* Space between the inputs */
+}
+
+.form-row .form-group {
+    flex: 1;
+}
+
+/* Button Group */
+.button-group {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1.25rem;
+    margin-top: 2.5rem;
+}
+
+.button-group button {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    min-width: 120px;
+}
+
+/* Cancel Button - Updated to match Update Button style */
+.cancel-button {
+    background-color: #0066cc; /* Same as Update Button */
+    color: white; /* Same as Update Button */
+}
+
+.cancel-button:hover {
+    background-color: #0052a3; /* Darker shade like Update Button hover */
+}
+
+/* Update Button */
+.update-button {
+    background-color: #0066cc;
+    color: white;
+}
+
+.update-button:hover {
+    background-color: #0052a3;
+}
+
+.error-message {
+    color: red;
+    margin-top: 1rem;
+    font-size: 0.875rem;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 480px) {
+    .modal-content {
+        padding: 1.5rem;
+        margin: 0;
+    }
+
+    .form-row {
+        flex-direction: column; /* Stack form inputs vertically on small screens */
+    }
+
+    .form-group input,
+    .form-group select,
+    .form-group .react-select__control {
+        padding: 1rem;
+    }
+
+    .button-group {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: flex-end;
+    }
+}
+/* Close Button */
+.close-button {
+    background-color: #0066cc; /* Same as Cancel/Update Button */
+    color: white; /* Same as Cancel/Update Button */
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    min-width: 120px;
+}
+
+.close-button:hover {
+    background-color: #0052a3; /* Darker shade on hover */
+}

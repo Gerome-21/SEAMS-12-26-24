@@ -1,0 +1,328 @@
+.eventList-mainbox {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+  background-color: transparent;
+  background-image: url(../zimages/rizalnew.png);
+  /* background-image: linear-gradient(rgba(0, 194, 255, 0.1), rgba(3, 66, 178, 0.9)); Bright blue to deep blue gradient */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.eventList-sidebar {
+  width: 220px;
+  background-color: #0342B2;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: fixed;
+  height: 100vh;
+}
+
+.eventList-logo {
+  display: flex;
+  align-items: center;
+  padding: 10%;
+}
+.eventList-seamslogo{
+  width: 30px;
+  height:30px;
+  background-image: url(../zimages/seamslogo2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.eventList-seams-txt{
+  font-size: 20px;
+  margin-left: 10px;
+}
+.eventList-adminbox{
+  width: 100%;
+  padding: 2% 0;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  background-color: #00C2FF   ;
+}
+.eventList-adminimage{
+  background-image: url(../zimages/useradmin.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 20px;
+  height: 20px;
+  margin-left: 16%;
+}
+.eventList-adminNameH2{
+  font-weight: normal;
+  font-size: 12px;
+  text-align: left;
+  margin-left: 3%;
+}
+
+.eventList-menu {
+  width: 100%;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.eventList-menu button {
+  /* border: 1px solid #CCC; */
+  /* box-shadow: white;  */
+  background-color: #0342B2;
+  border-color: rgba(255, 255, 255, 0);
+  border-width: 1px;
+  color: #fff;
+  padding: 10px 16%;
+  text-align: left;
+  width: 100%;
+  font-size: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: left;
+}
+
+.eventList-menu button:hover {
+  background-color: #1461e6;
+  font-weight: bold;
+  border-radius: 5px;
+  border-color: rgba(255, 255, 255, 0.5);
+  border-width: 1px;
+}
+
+.eventList-exitimg{
+  width: 14px;
+  height: 14px;
+  background-image: url(../zimages/exitimg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.eventList-exit {
+  border-top: 1px solid #CCC;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: auto;
+  width: 100%;
+  transition: background-color 0.3s ease;
+}
+
+.eventList-exit button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  font-size: 12px;
+  cursor: pointer;
+
+}
+
+.eventList-exit:hover {
+  background-color: #00C2FF;
+}
+/* ----------------------------left contnt----------------------- */
+.eventList-leftcont-box{
+  margin-left: 220px;
+  padding: 10px 4%;
+  background-image: url(../zimages/rizalnew.png);
+  /* background-image: linear-gradient(rgba(0, 194, 255, 0.1), rgba(3, 66, 178, 0.9)); Bright blue to deep blue gradient */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.eventList-logoboxlcc{
+  width: 100%;
+  height: 50px;
+  background-color: transparent;
+} 
+.eventList-lccBlogo{
+  width: 50px;
+  height: 50px;
+  background-image: url(../zimages/lccblogoorg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: auto;
+}
+.eventList-backevent-btnbox{
+  margin-top: 2%;
+  width: 100%;
+  height: 70px;
+  background-color: #fff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+.eventList-order1{
+  background-color: transparent ;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 2%;
+}
+.eventList-arrowimg{
+  width: 20px;
+  height: 20px;
+  background-color: #0342B2;
+  border-radius: 50px;
+  background-image: url(../zimages/addbtn.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%; 
+}
+.eventList-backevent-btn{
+  width: 90%;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: start;
+  padding-left: 8px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+.eventList-backbtnh4{
+  font-size: 10px;
+  font-weight: normal;
+  color: #B3B3B3;
+  margin-top: 3px;
+  margin-left: 2%;
+}
+.eventList-backevent-btnbox:hover {
+  background-color: #0342B2;
+  color: #fff;
+}
+.eventList-backevent-btn:hover{
+  color: #fff;
+}
+/* ----------------- */
+.eventList-addeventForm{
+  width: 96%;
+  /* height: 100vh; */
+  background-color: whitesmoke;
+  opacity: 0.93;
+  border-radius: 5px;
+  margin-top: 2%;
+  padding: 20px 2%;
+  display: flex;
+  flex-direction: column;
+}
+.eventList-addeventformH2{
+  font-weight: 500;
+  font-size: 20px;
+}
+.eventList-addeventformH4{
+  font-weight: normal;
+  font-size: 12px;
+  color: #b3b3b3;
+  margin-top: 3px;
+  padding-bottom: 1%;
+  border-bottom: 1px solid gray;
+}
+
+/* EventTable.css */
+.eventList-event-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 3% 0;
+  font-size: 12px;
+  text-align: left;
+  table-layout: auto;
+  font-weight: normal;
+  background-color: transparent; 
+  color: black;
+}
+
+.eventList-event-table th, .eventList-event-table td {
+  padding: 10px 10px;
+  /* border: 1px solid #444; */
+  word-wrap: break-word;
+  overflow-wrap: break-word; /* Ensures compatibility */
+  white-space: normal; /* Allows text to wrap */
+}
+
+.eventList-event-table thead tr {
+  background-color: #fff;
+  border-bottom: 1px solid gray;
+}
+
+.eventList-event-table tbody tr{
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.eventList-event-table tbody tr:hover {
+  background-color: #1461e6;
+  color: white;
+  transform: scale(1.05); /* Slight zoom */
+}
+
+.eventList-event-table th {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+
+@media (max-width: 720px) {
+  .eventList-event-table {
+    font-size: 14px;
+  }
+
+  .eventList-event-table th, .eventList-event-table td {
+    padding: 10px;
+  }
+}
+
+/* -------------------- */
+.eventList-updatebtn, .eventList-deletebtn, .eventList-viewevent{
+  border: 1px solid grey;
+  cursor: pointer;
+  font-size: 10px;
+  padding: 5px 10px; 
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+.eventList-updatebtn, .eventList-viewevent{
+  background-color: white;
+  color: black;
+}
+.eventList-deletebtn{
+  background-color: black;
+  color: white;
+}
+.eventList-deletebtn:hover{
+  background-color: red;
+  color: white;
+}
+.eventList-updatebtn:hover{
+  background-color: yellow;
+  color: black;
+}
+.eventList-viewevent:hover{
+  background-color: lightgreen;
+  color: black;
+}
+/* ---------- */
+
+.eventList-actions {
+  display: flex;
+  gap: 10px; /* Space between buttons */
+}

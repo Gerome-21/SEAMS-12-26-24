@@ -1,0 +1,47 @@
+/* Notification.css */
+.notification {
+    position: fixed;
+    top: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: top 0.5s ease-in-out;
+    z-index: 1000;
+  }
+  
+  .notification.show {
+    top: 20px;
+  }
+  
+  .notification-content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .check-icon {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .notification span {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  @keyframes slideDown {
+    0% {
+      transform: translateX(-50%) translateY(-100%);
+    }
+    100% {
+      transform: translateX(-50%) translateY(0);
+    }
+  }
+  
+  .notification.show {
+    animation: slideDown 0.5s ease-out forwards;
+  }

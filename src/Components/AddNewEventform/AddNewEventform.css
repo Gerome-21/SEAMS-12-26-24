@@ -1,0 +1,375 @@
+.ANEform-mainbox {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: transparent;
+    background-image: url(../zimages/rizalnew.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.ANEform-sidebar {
+    width: 220px;
+    background-color: #0342B2;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: fixed;
+    height: 100vh;
+    
+}
+
+
+.ANEform-logo {
+    display: flex;
+    align-items: center;
+    padding: 10%;
+}
+.ANEform-seamslogo{
+    width: 30px;
+    height: 30px;
+    background-image: url(../zimages/seamslogo2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.ANEform-seams-txt{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.ANEform-adminbox{
+    width: 100%;
+    padding: 2% 0;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: #00C2FF   ;
+}
+.ANEform-adminimage{
+    background-image: url(../zimages/useradmin.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    margin-left: 16%;
+}
+.ANEform-adminNameH2{
+    font-weight: normal;
+    font-size: 12px;
+    text-align: left;
+    margin-left: 3%;
+}
+
+.ANEform-menu {
+    width: 100%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.ANEform-menu button {
+    /* border: 1px solid #CCC; */
+    /* box-shadow: white;  */
+    background-color: #0342B2;
+    border-color: rgba(255, 255, 255, 0);
+    border-width: 1px;
+    color: #fff;
+    padding: 10px 16%;
+    text-align: left;
+    width: 100%;
+    font-size: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: left;
+}
+
+.ANEform-menu button:hover {
+    background-color: #1461e6;
+    font-weight: bold;
+    border-radius: 5px;
+    border-color: rgba(255, 255, 255, 0.5);
+    border-width: 1px;
+}
+
+.ANEform-exitimg{
+    width: 14px;
+    height: 14px;
+    background-image: url(../zimages/exitimg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.ANEform-exit {
+    border-top: 1px solid #CCC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: auto;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.ANEform-exit button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    font-size: 12px;
+    cursor: pointer;
+
+}
+
+.ANEform-exit:hover {
+    background-color: #00C2FF;
+}
+/* ----------------------------left contnt----------------------- */
+.ANEform-leftcont-box{
+    margin-left: 220px;
+    padding: 10px 4% 80px 4%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(../zimages/rizalnew.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+.ANEform-logoboxlcc{
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+} 
+.ANEform-lccBlogo{
+    width: 50px;
+    height: 50px;
+    background-image: url(../zimages/lccblogoorg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: auto;
+}
+.ANEform-backevent-btnbox{
+    margin-top: 2%;
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+.ANEform-order1{
+    background-color: transparent ;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 2%;
+}
+.ANEform-arrowimg{
+    width: 20px;
+    height: 20px;
+    background-color: #0342B2;
+    border-radius: 50px;
+    background-image: url(../zimages/arrowbtn.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50%; 
+}
+.ANEform-backevent-btn{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: start;
+    border: none;
+    background-color: transparent;
+    padding-left: 8px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+.ANEform-backbtnh4{
+    font-size: 10px;
+    font-weight: normal;
+    color: #B3B3B3;
+    margin-top: 3px;
+    margin-left: 2%;
+}
+.ANEform-backevent-btnbox:hover {
+    background-color: #0342B2;
+    color: #fff;
+}
+.ANEform-backevent-btn:hover{
+    color: #fff;
+}
+/* --------event form--------- */
+.ANEform-addeventForm{
+    width: 96%;
+    background-color: whitesmoke;
+    opacity: 0.96;
+    border-radius: 5px;
+    margin-top: 2%;
+    padding: 30px 2% 90px 2%;
+    display: flex;
+    flex-direction: column;
+}
+.ANEform-addeventformH2{
+    font-weight: 500;
+    font-size: 20px;
+}
+.ANEform-addeventformH4{
+    font-weight: normal;
+    font-size: 12px;
+    color: #b3b3b3;
+    margin-top: 3px;
+    padding-bottom: 1%;
+    border-bottom: 1px solid gray;
+}
+
+
+
+
+.ANEform-form-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    gap: 20px; /* Gap between the grid items */
+    max-width: 80%;
+    margin-top: 4%;
+  }
+  
+  .ANEform-form-group {
+    display: flex;
+    flex-direction: column;
+  }
+  
+.ANEform-addeventformlabel {
+    margin-bottom: 2%;
+    font-weight: 500;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  /* ------------DATE---------- */
+  .ANEform-date-input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    color: #555;
+  }
+  
+  .ANEform-date-input:focus {
+    outline: none;
+    border-color: #0342B2;
+  }
+  
+  .ANEform-selected-date {
+    font-size: 14px;
+    color: #555;
+  }
+/* ------------drop down----------- */
+/* .ANEform-form-group select {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    transition: border-color 0.3s;
+} */
+
+/* Add focus styles */
+.ANEform-form-group select:focus {
+    border-color: #0342B2;
+    outline: none;
+}
+.ANEform-submit-btnANE{
+    margin-top: 7%;
+    width: 40%;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 500;
+    cursor: pointer;
+    background-color: #0342B2;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    
+}
+.ANEform-submit-btnANE:hover{
+    transform: scale(1.05); /* Slight zoom */
+    background-color: #00C2FF;
+    font-weight: bold
+}
+/* ---------------- */
+/* Custom styling for react-select */
+.ANEform-custom-multi-select .react-select__control {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 4px;
+    width: 100%;
+  }
+  
+  .ANEform-custom-multi-select .react-select__multi-value {
+    display: inline-block; /* Ensures selected options are inline */
+    background-color: #e0f7fa; /* Light blue background */
+    border-radius: 4px;
+    margin: 2px; /* Adds spacing between selected options */
+    padding: 2px 6px; /* Internal padding for options */
+  }
+  
+  .ANEform-custom-multi-select .react-select__multi-value__label {
+    font-size: 14px;
+    color: #00796b; /* Dark teal text */
+  }
+  
+  .ANEform-custom-multi-select .react-select__multi-value__remove {
+    cursor: pointer;
+    color: #00796b; /* Same color as label */
+    margin-left: 4px;
+  }
+  
+  .ANEform-custom-multi-select .react-select__multi-value__remove:hover {
+    background-color: #004d40; /* Dark teal background on hover */
+    color: white; /* White text on hover */
+  }
+  
+  /* Dropdown menu styling */
+  .ANEform-custom-multi-select .react-select__menu {
+    z-index: 100; /* Ensures dropdown appears above other elements */
+  }
+  
+  .ANEform-custom-multi-select .react-select__option {
+    padding: 8px;
+  }
+  
+  .ANEform-custom-multi-select .react-select__option--is-selected {
+    background-color: #00796b; /* Teal for selected options */
+    color: white;
+  }
+  
+  .ANEform-custom-multi-select .react-select__option--is-focused {
+    background-color: #b2dfdb; /* Light teal for hover state */
+    color: black;
+  }
